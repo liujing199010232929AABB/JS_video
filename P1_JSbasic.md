@@ -1,6 +1,6 @@
 # 第一章 JavaScript基础入门
 
-## ECMAScript发展：
+## ECMAScript发展： 
 
 ECMA-计算机联盟协会 欧洲计算机协会标准
 
