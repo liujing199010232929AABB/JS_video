@@ -1,10 +1,14 @@
+---
+typora-root-url: pic
+---
+
 # 第四章 JS特效
 
 ## 01.图片切换
 
 效果图如下：
 
-![01](D:\Typora\program\javascript\pic\01.png)
+![](/01.png)
 
 html代码如下：
 
@@ -50,7 +54,7 @@ prevBtn.onclick = function(){
 
 效果图如下：
 
-![02](D:\Typora\program\javascript\pic\02.png)
+![](/02.png)
 
 html代码如下：
 
@@ -86,7 +90,7 @@ obtn.onclick = function(){
 
 效果图如下：
 
-![](D:\Typora\program\javascript\pic\03.png)
+![](/03.png)
 
 css代码如下：
 
@@ -178,7 +182,7 @@ for(var i = 0; i < smallImgs.length; i++){
 
 效果图如下：
 
-![04](D:\Typora\program\javascript\pic\04.png)
+![](/04.png)
 
 css代码如下：
 
@@ -234,7 +238,7 @@ var qe_code = document.getElementById('qe_code');
 
 效果图如下：
 
-![05](D:\Typora\program\javascript\pic\05.png)
+![](/05.png)
 
 css代码如下：
 
@@ -349,7 +353,7 @@ for(var i = 0;i < items.length; i++){
 
 效果图如下：
 
-![06](D:\Typora\program\javascript\pic\06.png)
+![](/06.png)
 
 css代码如下：
 
@@ -438,7 +442,7 @@ console.log(allItems);
 
 效果图如下：
 
-![07](D:\Typora\program\javascript\pic\07.png)
+![](/07.png)
 
 css代码如下：
 
@@ -531,7 +535,7 @@ $('reverseSelect').onclick = function(){
 
 效果图如下：
 
-![08](D:\Typora\program\javascript\pic\08.png)
+![](/08.png)
 
 css代码如下：
 
@@ -620,7 +624,7 @@ $('score').onfocus = function(){
 
 效果图如下：
 
-![09](D:\Typora\program\javascript\pic\09.png)
+![](/09.png)
 
 html代码如下：
 
@@ -661,7 +665,7 @@ window.onload = function(){
 
 效果图如下：
 
-![10](D:\Typora\program\javascript\pic\10.png)
+![](/10.png)
 
 css代码如下：
 
@@ -742,7 +746,7 @@ window.onload = function(){
 
 效果图如下：
 
-![11](D:\Typora\program\javascript\pic\11.png)
+![](/11.png)
 
 css代码如下：
 
@@ -812,7 +816,7 @@ window.onload = function(){
 
 效果图如下：
 
-<img src="D:\Typora\program\javascript\pic\12.png" alt="12" style="zoom:80%;" />
+![](/12.png)
 
 css代码如下：
 
@@ -1005,7 +1009,7 @@ function lj_flex(colsNum){
 
 效果图如下：
 
-![13](D:\Typora\program\javascript\pic\13.png)
+![](/13.png)
 
 css代码如下：
 
@@ -1130,7 +1134,7 @@ window.onload = function(){
 
 效果图如下：
 
-<img src="D:\Typora\program\javascript\pic\14.png" alt="14" style="zoom:50%;" />
+![](/14.png)
 
 css代码如下：
 
@@ -1182,7 +1186,7 @@ setInterval(function(){
 
 效果如下：
 
-<img src="D:\Typora\program\javascript\pic\15.png" alt="15" style="zoom:50%;" />
+<img src="/15.png" style="zoom:50%;" />
 
 css代码如下：
 

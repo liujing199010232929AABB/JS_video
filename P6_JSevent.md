@@ -1,3 +1,7 @@
+---
+typora-root-url: pic
+---
+
 # 第六章 JS事件
 
 ## 事件流介绍
@@ -12,7 +16,7 @@
 
 事件冒泡: 事件开始时由最具体的元素接收,然后逐级向上传播到较为不具体的节点(文档)
 
-<img src="D:\Typora\program\javascript\pic\image-20190507142910045.png" alt="image-20190507142910045" style="zoom:80%;" />
+![](/image-20190507142910045.png)
 
 ## 事件捕获的概念
 
@@ -60,7 +64,7 @@
 
    得到的结果如下：
 
-   ![6_1](D:\Typora\program\javascript\pic\6_1.png)
+   ![](/6_1.png)
 
 ## HTML事件处理程序
 
@@ -457,12 +461,16 @@ window.onload = function() {
     box.onmouseover = function(e) {
         e = e || window.event;
         var target = e.target || e.srcElement;
-        target.style.backgroundColor = 'blue';
+        if(target.nodeName.toLowerCase()==='li'){
+            target.style.backgroundColor = 'blue';
+        }
     }
     box.onmouseout = function(e) {
         e = e || window.event;
         var target = e.target || e.srcElement;
-        target.style.backgroundColor = 'black';
+        if(target.nodeName.toLowerCase()==='li'){
+            target.style.backgroundColor = 'black';
+        }
     }
 
 }

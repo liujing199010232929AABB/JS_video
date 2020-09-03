@@ -378,7 +378,7 @@ fn.prototype.a = 1;
 console.log(fn.prototype);
 ```
 
-## 函数中apply和callf方法的使用
+## 函数中apply和call方法的使用
 
 ```javascript
 function fn(){};

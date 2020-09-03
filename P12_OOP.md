@@ -1,3 +1,7 @@
+---
+typora-root-url: pic
+---
+
 # 第十二章面向对象编程
 
 ## 本章内容介绍
@@ -146,7 +150,7 @@ console.log(p1,p2);
 </script>
 ```
 
-![01](D:\Typora\program\javascript\pic\12\01.png)
+![](/12/01.png)
 
 生成两个Person空间，造成资源浪费
 
@@ -169,7 +173,9 @@ console.log(f1.showName());
 console.log(f2.showName());
 ```
 
-## 理清原型对象实例对象构造函数之间的关系![理清原型对象_实例对象_构造函数之间的关系](D:\Typora\program\javascript\pic\12\理清原型对象_实例对象_构造函数之间的关系.png)
+## 理清原型对象实例对象构造函数之间的关系
+
+![](/12/理清原型对象_实例对象_构造函数之间的关系.png)
 
 ```javascript
 <script type="text/javascript">
@@ -534,7 +540,7 @@ wo.sayName();//21
 you.sayName();//21
 ```
 
-![03](D:\Typora\program\javascript\pic\12\03.png)
+![](/12/03.png)
 
 ### 6.动态原型模式
 
@@ -874,7 +880,7 @@ console.log(d1.colors);
 console.log(d2.colors);
 ```
 
-![04](D:\Typora\program\javascript\pic\12\04.png)
+![](/12/04.png)
 
 缺点：
 
@@ -1120,7 +1126,7 @@ var obj = {
  console.log(Object.getOwnPropertyNames(obj).length); 
 ```
 
-![05](D:\Typora\program\javascript\pic\12\05.png)
+![](/12/05.png)
 
 #### 1.3Object.getPrototypeOf()
 
@@ -1349,7 +1355,7 @@ console.log(obj);
 
 用法：定义多个属性
 
-```
+```javascript
 var obj = Object.defineProperties({},{
     p1:{
         value:123,
